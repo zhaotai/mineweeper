@@ -1,0 +1,22 @@
+.icon {
+  width: 26px;
+  height: 26px;
+  background-image: url('../../imgs/sprite100.gif');
+}
+
+.emoji .icon.pressed {
+  background-position: -26px -55px;
+}
+
+.icon.smile {
+  background-position: 0 -55px;
+}
+
+.icon.cry {
+  background-position: -78px -55px;
+}
+
+.icon.facewin {
+  background-position: -104px -55px;
+}
+

@@ -1,0 +1,48 @@
+.menu {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 120px;
+  border: 1px solid #ccc;
+  z-index: 1;
+  background-color: white;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.popup .close {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
+
+.menu .header {
+  display: flex;
+  margin-top: 25px;
+  padding-left: 100px;
+  justify-content: left;
+}
+
+.menu .header div {
+  flex: 1 1 100px;
+}
+
+.menu .body {
+  display: flex;
+}
+
+.menu .body .label {
+  width: 100px;
+}
+
+.menu .body input {
+  width: 100px;
+  margin-right: 2px;
+}

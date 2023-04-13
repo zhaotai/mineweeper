@@ -1,0 +1,49 @@
+.counter {
+  display: flex;
+}
+
+.digit {
+  width: 13px;
+  height: 23px;
+  background-image: url('../../imgs/sprite100.gif');
+}
+
+.digit.d0 {
+  background-position: 0 0;
+}
+
+.digit.d1 {
+  background-position: -13px 0;
+}
+
+.digit.d2 {
+  background-position: -26px 0;
+}
+
+.digit.d3 {
+  background-position: -39px 0;
+}
+
+.digit.d4 {
+  background-position: -52px 0;
+}
+
+.digit.d5 {
+  background-position: -65px 0;
+}
+
+.digit.d6 {
+  background-position: -78px 0;
+}
+
+.digit.d7 {
+  background-position: -91px 0;
+}
+
+.digit.d8 {
+  background-position: -104px 0;
+}
+
+.digit.d9 {
+  background-position: -117px 0;
+}
